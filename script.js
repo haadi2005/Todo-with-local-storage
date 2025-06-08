@@ -96,4 +96,3 @@ function refreshList() {
 add_btn.addEventListener("click", addItem);
 
 refreshList();
-// test
