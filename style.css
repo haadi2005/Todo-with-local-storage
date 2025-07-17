@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #393e41;
+  background-color: rgb(57, 62, 65);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,7 +18,7 @@ body {
   padding: 26px 22px;
   border: 1px solid white;
   border-radius: 10px;
-  background-color: rgba(255, 255, 255, 14%);
+  background-color: rgba(255, 255, 255, 10%);
 }
 
 h1 {
