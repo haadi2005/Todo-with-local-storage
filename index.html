@@ -6,19 +6,29 @@
     <title>Advance Todo App</title>
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1>Todo list</h1>
-    <!-- saves all the items -->
-    <div class="items"></div>
-    <template class="itemTemplate">
-      <!-- this is just here to be copied -->
-      <div class="item">
-        <input type="checkbox" class="item-completed" />
-        <input type="text" placeholder="Todo..." class="item-description" />
+    <div class="container">
+      <h1>Todo list</h1>
+      <!-- saves all the items -->
+      <div class="items"></div>
+      <template class="itemTemplate">
+        <!-- this is just here to be copied -->
+        <div class="item">
+          <input type="checkbox" class="item-completed" />
+          <input type="text" placeholder="Todo..." class="item-description" />
+        </div>
+      </template>
+      <div class="">
+        <button class="add">Add</button>
+        <button class="deleteItem">Del All</button>
       </div>
-    </template>
-    <button class="add">Add</button>
-    <button class="deleteItem">Del All</button>
+    </div>
   </body>
 </html>
