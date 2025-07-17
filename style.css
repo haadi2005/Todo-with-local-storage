@@ -3,12 +3,27 @@
 }
 
 body {
-  background-color: rgb(53, 53, 53);
+  background-color: #393e41;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 26px 22px;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 14%);
 }
 
 h1 {
   color: white;
-  margin: 10px 0px;
+  margin: 0px 0px 10px 0px;
 }
 
 .item {
@@ -33,8 +48,8 @@ h1 {
 
 .item-completed {
   cursor: pointer;
-  width: 28px;
-  height: 28px;
+  width: 30px;
+  height: 30px;
   margin: 0px 5px 10px 0px;
 }
 
@@ -45,12 +60,12 @@ h1 {
   font-size: 1rem;
   padding: 8px 10px;
   color: white;
-  background-color: rgb(0, 140, 124);
+  background-color: #3c91e6;
   border: 0px;
   border-radius: 2px;
 }
 
 .deleteItem {
   background-color: rgb(255, 89, 89);
-  margin: 0px 0px 10px 5px;
+  margin: 5px 0px 0px 5px;
 }
